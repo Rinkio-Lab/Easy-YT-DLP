@@ -1,0 +1,12 @@
+[project]
+name = "easy-yt-dlp"
+version = "1.0.0"
+description = "Easy-YT-DLP 是一个基于 yt-dlp 的 Python 脚本，旨在简化音频下载流程，支持手动输入 URL 和剪贴板监控两种模式，自动创建下载目录，具备自动重试机制，并提供友好的命令行界面。"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "clipboard-monitor>=1.0.5",
+    "pywin32>=311",
+    "questionary>=2.1.1",
+    "rich>=14.1.0",
+]

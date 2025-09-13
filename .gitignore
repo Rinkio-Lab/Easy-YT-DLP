@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# pip / uv / package
+*.egg-info/
+*.egg
+dist/
+build/
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# 下载文件夹
+Download/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Questionary / rich 可能生成的缓存文件（可选）
+.cache/
